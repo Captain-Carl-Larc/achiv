@@ -1,0 +1,67 @@
+header{
+    width: 100%;
+    height: auto;
+    min-height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5893bb;
+    border-bottom: solid 0.3rem black;
+    position: sticky;
+    top: 0;
+}
+
+
+.logo {
+    cursor: pointer;
+    margin-left: 2rem;
+   
+}
+.logo p{
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight:bolder ;
+    background-color: rgb(100, 68, 26);
+    border-left: solid 0.2rem green;
+    border-top: solid 0.2rem gold;
+    border-right: solid 0.2rem gold;
+    border-bottom: solid 0.2rem green;
+}
+.logo p a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    margin: 0rem 1rem;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.menu ul li a:hover{
+    background-color: red;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+.active-page {
+    color: #4dff9d;
+   text-transform: uppercase;
+}
